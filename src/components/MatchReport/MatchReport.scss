@@ -1,0 +1,45 @@
+.container {
+  background-image: url("../../../public/background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actionable-area {
+  height: 95vh;
+  width: 95vw;
+  background-color: rgba(217, 217, 217, 0.8);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+
+  width: 100%;
+}
+
+.table-identifier {
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  margin-top: 16px;
+}
